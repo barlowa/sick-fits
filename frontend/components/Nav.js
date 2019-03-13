@@ -5,7 +5,7 @@ const Nav = () =>(
     <NavStyles>
         {/* HTML 5 push state using next js */}
         <Link href ='/items'>
-            <a>Items</a>
+            <a>Shop</a>
         </Link>
         
         <Link href ='/sell'>
