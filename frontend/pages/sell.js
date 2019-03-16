@@ -1,6 +1,8 @@
+import CreateItem from '../components/CreateItem'
+
 const Sell = (props) =>(
     <React.Fragment>
-        <p>Sell Page</p>
+        <CreateItem />
 
     </React.Fragment>
 )
