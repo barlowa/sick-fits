@@ -705,7 +705,7 @@ function (_App) {
                 pageProps = _context.sent;
 
               case 6:
-                pageProps.quert = ctx.query; //this exposes the query to the user
+                pageProps.query = ctx.query; //this exposes the query to the user
 
                 return _context.abrupt("return", {
                   pageProps: pageProps
