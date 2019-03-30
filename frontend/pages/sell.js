@@ -1,10 +1,12 @@
 import CreateItem from '../components/CreateItem'
+import PleaseSignIn from '../components/PleaseSignIn'
 
 const Sell = (props) =>(
-    <React.Fragment>
-        <CreateItem />
-
-    </React.Fragment>
+    <>
+        <PleaseSignIn>
+            <CreateItem />
+        </PleaseSignIn>
+    </>
 )
 
 export default Sell;
